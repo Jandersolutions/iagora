@@ -1,12 +1,16 @@
 {
-  "hash": "5a8b92f7e4e14ec313a195b3cd13477f",
+  "hash": "043aa37b993b692504af04459a7b0fdb",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Harlow Malloc\"\ndate: \"2024-09-17\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\njupyter: python3\n---\n\n\nThis is a post with executable code.\n\n::: {#e0ea9fa9 .cell execution_count=1}\n``` {.python .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n2\n```\n:::\n:::\n\n\n## Codigo python\n\n::: {#31bd0d99 .cell execution_count=2}\n``` {.python .cell-code}\na = 7\nb = 5\na+b\n```\n\n::: {.cell-output .cell-output-display execution_count=2}\n```\n12\n```\n:::\n:::\n\n\n## Pandas\n\n::: {#a2861912 .cell execution_count=3}\n``` {.python .cell-code}\nimport pandas as pd\n# Listas de dados\naluno = ['João','Maria','Augusto','Cristina']\nnota = [5,7,10,8]\n# Criar um DataFrame\ndf = pd.DataFrame({\n    'Aluno': aluno,\n    'Nota': nota\n})\n# Exibe o dataframe\nprint(df)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n      Aluno  Nota\n0      João     5\n1     Maria     7\n2   Augusto    10\n3  Cristina     8\n```\n:::\n:::\n\n\n",
+    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Harlow Malloc\"\ndate: \"2024-09-17\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\njupyter: python3\n---\n\n\nThis is a post with executable code.\n\n::: {#fcc6ee49 .cell execution_count=1}\n``` {.python .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n2\n```\n:::\n:::\n\n\n::: {#2e9f0598 .cell execution_count=2}\n``` {.python .cell-code}\na = 7\nb = 5\na + b\n```\n\n::: {.cell-output .cell-output-display execution_count=2}\n```\n12\n```\n:::\n:::\n\n\n::: {#52ac881f .cell execution_count=3}\n``` {.python .cell-code}\nimport pandas as pd\n\n# Listas de dados\naluno = ['João', 'Maria', 'Augusto', 'Cristina']\nnota = [5, 7, 10, 8]\n\n# Criar um DataFrame\ndf = pd.DataFrame({\n    'Aluno': aluno,\n    'Nota': nota\n})\n\n# Exibe o DataFrame\ndf\n```\n\n::: {.cell-output .cell-output-display execution_count=3}\n```{=html}\n<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>Aluno</th>\n      <th>Nota</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>João</td>\n      <td>5</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>Maria</td>\n      <td>7</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>Augusto</td>\n      <td>10</td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td>Cristina</td>\n      <td>8</td>\n    </tr>\n  </tbody>\n</table>\n</div>\n```\n:::\n:::\n\n\n",
     "supporting": [
       "index_files"
     ],
     "filters": [],
-    "includes": {}
+    "includes": {
+      "include-in-header": [
+        "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js\" integrity=\"sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==\" crossorigin=\"anonymous\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js\" integrity=\"sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==\" crossorigin=\"anonymous\" data-relocate-top=\"true\"></script>\n<script type=\"application/javascript\">define('jquery', [],function() {return window.jQuery;})</script>\n"
+      ]
+    }
   }
 }
