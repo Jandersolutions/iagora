@@ -12,3 +12,27 @@ This is a post with executable code.
 ```{python}
 1 + 1
 ```
+
+## Codigo python
+
+```{python}
+a = 7
+b = 5
+a+b
+```
+
+## Pandas
+
+```{python}
+import pandas as pd
+# Listas de dados
+aluno = ['João','Maria','Augusto','Cristina']
+nota = [5,7,10,8]
+# Criar um DataFrame
+df = pd.DataFrame({
+    'Aluno': aluno,
+    'Nota': nota
+})
+# Exibe o dataframe
+print(df)
+```
